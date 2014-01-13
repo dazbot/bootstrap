@@ -1,0 +1,20 @@
+body {  }
+
+.borders { border:1px solid #ededed; }
+
+.container.full-width { padding:0 15px; min-width:100%; }
+
+a.menu { 
+    background: center center no-repeat black; 
+    background-image: url( data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAZCAYAAADE6YVjAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAADhJREFUeNpi/P//PwOtARMDHQBdLGFBYtMq3BiHT3DRPU4YR4NrNAmPJuHRJDyahEeT8Ii3BCDAAF0WBj5Er5idAAAAAElFTkSuQmCC );
+    display: block;
+    width: 40px;
+    height: 40px;
+}
+
+@media (min-width:900px)
+{
+    a.menu { display:none; }
+}
+
+.container { width:100%; }
